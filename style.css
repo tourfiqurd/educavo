@@ -1,0 +1,611 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* For desktop: */
+.col-sm-1 {
+    width: 8.33%;
+}
+
+.col-sm-2 {
+    width: 16.66%;
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+.col-sm-4 {
+    width: 33.33%;
+}
+
+.col-sm-5 {
+    width: 41.66%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-sm-7 {
+    width: 58.33%;
+}
+
+.col-sm-8 {
+    width: 66.66%;
+}
+
+.col-sm-9 {
+    width: 75%;
+}
+
+.col-sm-10 {
+    width: 83.33%;
+}
+
+.col-sm-11 {
+    width: 91.66%;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+
+}
+
+[class*="col-"] {
+    width: 100%;
+
+
+}
+
+.navbar {
+    text-align: center;
+    padding: 20px;
+    background-color: #171f32c4;
+
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.menu ul li {
+    padding: 10px;
+    list-style: none;
+
+
+
+
+}
+
+
+.menu ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.menu ul li a:hover {
+    background-color: tomato;
+
+}
+
+.navbar::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.icons {
+    margin-top: 5px;
+}
+
+.icons i {
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+
+.icons i:hover {
+    color: tomato;
+    background-color: white;
+    transition: .1s;
+
+
+}
+
+.logo img {
+    margin-top: 0px;
+    width: 100%;
+}
+
+/* fsdjklfsdoijfoiso */
+
+.first-section {
+    background-image: url("images/Image/asset\ 46.jpeg");
+
+    background-size: cover;
+}
+
+.top-header {
+
+    text-align: center;
+
+
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.info h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff5421;
+
+    text-transform: uppercase;
+}
+
+.info h1 {
+    font-size: 70px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 10px;
+
+}
+
+.info button {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+
+
+.card {
+    padding: 10px 0px;
+
+}
+
+
+
+.card-items {
+    background-color: #171f32;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+
+
+
+
+
+}
+
+
+
+
+
+.card-text h2 {
+    font-size: 22px;
+
+}
+
+.card-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 15px;
+}
+
+.card-section::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* namintg section */
+.nameing-section {
+    text-align: center;
+    margin: 100px 0px 50px;
+}
+
+.nameing-section h3 {
+    color: tomato;
+    font-size: 20px;
+}
+
+.nameing-section h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+}
+
+/* CArd Common */
+.card-image-popu {
+    padding: 10px;
+    background-image:
+        linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)),
+        url('images/Image/1.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    height: 400px;
+
+
+}
+
+
+
+
+
+.card-image-popu:hover {
+    top: 0px;
+}
+
+.card-item-popu {
+    padding: 10px;
+    transition: 2s;
+}
+
+.card-image-popu {
+    padding-top: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-popu {
+    margin-left: 10px;
+}
+
+.Popular-Online-Categories {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* ----------------------
+        card One
+----------------  */
+.card-image-popu-1 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/1.jpg');
+}
+
+/* ----------------------
+        card two
+----------------  */
+.card-image-popu-2 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/asset\ 7.jpeg');
+}
+
+/* ----------------------
+        card Three
+----------------  */
+.card-image-popu-3 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/asset\ 8.jpeg');
+}
+
+/* ----------------------
+        card four
+----------------  */
+.card-image-popu-4 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/asset\ 9.jpeg');
+}
+
+/* ----------------------
+        card five
+----------------  */
+.card-image-popu-5 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/asset\ 10.jpeg');
+
+}
+
+/* ----------------------
+        card six
+----------------  */
+.card-image-popu-6 {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(10, 10, 10, 0)), url('images/Image/asset\ 15.jpeg');
+
+}
+
+/* card-courses section */
+.card-courses-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+
+}
+
+.card-course-image {
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card-course-image:hover {
+
+    transform: scale(1.1);
+}
+
+.card-courses-section::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.card-desc-main {
+    padding: 15px;
+
+
+}
+
+.card-courses {
+    overflow: hidden;
+
+
+    box-shadow: 10px 10px 32px black;
+    margin: 10px;
+}
+
+.card-course-desc {
+    padding: 10px;
+
+}
+
+.card-course-desc i {
+    color: orange;
+}
+
+.admin {
+    display: flex;
+
+}
+
+.lessons {
+    display: flex;
+}
+
+.card-course-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.card-course-footer i {
+    color: orangered;
+}
+
+/* offer-section */
+.image1 {
+    width: 100%;
+    height: 350px;
+}
+
+.offer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image2 {
+    text-align: center;
+    color: white;
+    padding: 5%;
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(to bottom, #28316cc7, #28316cc7),
+        url('images/Image/main-home.jpg');
+    background-size: cover;
+}
+
+.image2 button {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+
+}
+
+.image2 h1 {
+    font-size: 2.5rem;
+}
+
+.image2 p {
+    text-align: justify;
+}
+
+/* card-frecuntly section */
+.half {
+    width: 50%;
+}
+
+.Frequently {
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.Frequently h1 {
+    font-size: 40px;
+
+}
+
+.cards-frecuntyl {
+    padding: 20px;
+}
+
+.card-frecuntly {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0 0px;
+
+    /* box-shadow: 5px 5px 20px black; */
+    border-radius: 3px;
+    border: 1px solid orangered;
+    background-color: white;
+
+
+}
+
+.card-frecuntly i {
+    font-size: 20px;
+    color: orangered;
+}
+
+.text-frecuntly {
+    width: 100%;
+}
+
+.text-frecuntly {
+    display: flex;
+    justify-content: center;
+}
+
+.testi-cards {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.testi-card {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.testi-card h2 {
+    line-height: 40px;
+}
+
+.testimonial-section {
+    background-color: #171f32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* dgfudshfpishaiufhiosahf */
+.admin {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.admin2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main h1 {
+    padding-bottom: 10px;
+
+}
+
+.admin i {
+    color: orangered;
+
+}
+
+/* footer */
+footer {
+    background-color: #171f32;
+}
+
+.sub-text {
+    text-align: center;
+
+    color: white;
+    font-size: 20px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sub-input input {
+    border: 2px solid orangered;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+
+
+}
+
+.sub-input button {
+    background-color: orangered;
+    font-size: 25px;
+    padding: 10px;
+
+    border: 2px solid orangered;
+    margin: 0;
+}
+
+.collunms {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    color: white;
+}
+
+.collunms i {
+    color: orangered;
+
+}
+
+.card-collums {
+    padding: 25px;
+}
+
+.half-hr {
+    width: 50px;
+    color: orangered;
+}
+
+.foote-text {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.foote-text span {
+    color: orangered;
+}

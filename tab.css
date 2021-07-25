@@ -1,0 +1,144 @@
+/* For desktop: */
+.col-md-1 {
+    width: 8.33%;
+}
+
+.col-md-2 {
+    width: 16.66%;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-4 {
+    width: 33.33%;
+}
+
+.col-md-5 {
+    width: 41.66%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-7 {
+    width: 58.33%;
+}
+
+.col-md-8 {
+    width: 66.66%;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.col-md-10 {
+    width: 83.33%;
+}
+
+.col-md-11 {
+    width: 91.66%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.icons {
+    margin-top: 80px;
+}
+
+.logo img {
+    margin-top: 120px;
+    width: 100%;
+}
+
+/* }fdsfgdfdsf */
+.card-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+}
+
+
+
+/* dfsdifjidsf */
+
+.Popular-Online-Categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* fdsjfdskjfsdoifjsd */
+.card-courses-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+
+.image1 {
+    width: 50%;
+    height: 450px;
+}
+
+.offer-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image2 {
+    width: 50%;
+    height: 450px;
+    background-image: linear-gradient(to bottom, #28316cc7, #28316cc7),
+        url('images/Image/main-home.jpg');
+    background-size: cover;
+}
+
+.Frequently {
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    flex-direction: row;
+}
+
+.video-frecuntly {
+    width: 50%;
+}
+
+.text-frecuntly {
+    width: 50%;
+}
+
+.cards-frecuntyl {
+    padding: 20px;
+}
+
+.card-frecuntly {
+    width: 350px;
+
+    margin: 0 20px;
+
+
+
+}
+
+.testi-cards {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.collunms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    color: white;
+}
